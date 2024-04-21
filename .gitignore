@@ -1,4 +1,4 @@
-"""codigo 3 20 de abril"""
+"""codigo 3 20 de abril."""
 import random
 
 def carta_de_la_casa():
