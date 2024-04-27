@@ -46,9 +46,7 @@ Este enfoque garantiza que el juego de Blackjack sea justo, transparente y propo
 
 Instrucciones de Uso
 1. Descargar el archivo `blackjack.py`.
-2. Abrir una terminal o CMD.
-3. Navegar hasta el directorio donde se encuentra el archivo descargado.
-4. Ejecutar el comando:
+2. Abrir una terminal o CMD o abrir en Thonny y dar boton de play
 5. Seguir las instrucciones en pantalla para jugar al Blackjack. El juego ofrece opciones para realizar apuestas basadas en un archivo de paquetes, consultar el balance
    de ganancias/pérdidas y ver el historial de manos jugadas.
 
