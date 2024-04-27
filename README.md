@@ -45,7 +45,7 @@ El algoritmo del juego se estructura en tres fases principales: Inputs, Procedim
 Este enfoque garantiza que el juego de Blackjack sea justo, transparente y proporciona una experiencia de usuario divertida y aprendiendo del codigo tambien.
 
 Instrucciones de Uso
-1. Descargar el archivo `blackjack.py`.
+1. Descargar el archivo `blackjack.py` y tambien Paquetes_de_apuestas.txt, y agregalos a una misma carpeta.
 2. Abrir una terminal o CMD o abrir en Thonny y dar boton de play
 5. Seguir las instrucciones en pantalla para jugar al Blackjack. El juego ofrece opciones para realizar apuestas basadas en un archivo de paquetes, consultar el balance
    de ganancias/pérdidas y ver el historial de manos jugadas.
