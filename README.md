@@ -25,7 +25,7 @@ El algoritmo del juego se estructura en tres fases principales: Inputs, Procedim
    - **Selección de Apuesta**: El jugador selecciona uno de los paquetes de apuestas disponibles que determinará el monto de la apuesta para esa ronda.
 
 #### 2. Procedimiento
-   - **Reparto de Cartas**: Se reparten dos cartas al jugador y al dealer. Las cartas tienen valores numéricos estándar con los ases pudiendo ser 1 u 11.
+   - **Reparto de Cartas**: Se reparten dos cartas al jugador y al dealer. 
    - **Mostrar Mano**: Inicialmente se muestra solo la primera carta del dealer y todas las cartas del jugador.
    - **Turno del Jugador**: El jugador decide si desea recibir más cartas ("hit") o plantarse ("stand"). Si el total del jugador supera 21, pierde automáticamente.
    - **Turno del Dealer**: Si el jugador no se pasa, el dealer juega según las reglas fijas, tomando cartas hasta alcanzar un mínimo de 17.
