@@ -1,0 +1,6 @@
+Paquetes de apuestas
+Bet1 $50
+Bet2 $70
+Bet3 $90
+Bet4 $110
+Bet5 $130
