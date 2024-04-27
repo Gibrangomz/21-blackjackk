@@ -2,12 +2,13 @@
 import random
 
 def carta_de_la_casa():
-    # explicado en código 2#
+    # Esta función selecciona una carta al azar de la baraja de blackjack que incluye los valores típicos:
+    # números del 2 al 10, figuras (J, Q, K) que valen 10, y el As que puede valer 11 o 1, dependiendo de la situación.
     cartas = [2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11]
     return random.choice(cartas)
 
 def puntaje_mano(mano):
-    # explicado en código 2#
+    # Calcula el puntaje de una mano de cartas ajustando el valor del As de 11 a 1 si el puntaje total supera 21.
     score = sum(mano)
     ace_count = mano.count(11)
     while score > 21 and ace_count > 0:
@@ -16,7 +17,8 @@ def puntaje_mano(mano):
     return score
 
 def mostrar_mano(mano, es_dealer=False):
-    # explicado en código 2#
+    # Muestra las cartas de la mano del jugador o la primera carta del dealer si es_dealer es True.
+    # Esto ayuda a visualizar el estado actual del juego.
     if es_dealer:
         print(f"Primera carta del dealer: {mano[0]}")
     else:
